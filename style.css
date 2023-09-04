@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1a2d;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #15273f;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.crypto-info {
+    width: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.crypto-info .bg {
+    position: relative;
+    width: 90%;
+    margin: 16px auto;
+}
+
+.crypto-info .overlay {
+    background: url(images/icon-view.svg) no-repeat center;
+    background-size: 20%;
+    position: absolute;
+    height: 270px;   
+    width: 270px;   
+    top: 0;   
+    left: 0;   
+    background-color: #2dd0d1;   
+    opacity: 0;  
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.bg:active .overlay {
+    opacity: 0.4;
+}
+
+.crypto-info > a {
+    width: 90%;
+    margin: 16px auto;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.crypto-info a img {
+    width: 100%;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.crypto-info > div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.crypto-info div img {
+    margin-right: 10px;
+}
+
+.crypto-info h3 {
+    margin-top: 0px;
+    margin-left: 18px;
+}
+
+.crypto-info a, .user a {
+    text-decoration: none;
+    color: #fbffff;
+    cursor: pointer;
+}
+
+.crypto-info a:active, .user a:active {
+    color: #2dd0d1;
+}
+
+.crypto-info p {
+    color: #5e7391;
+    margin: 0 15px 15px 18px;
+    font-size: 18px;
+}
+
+.crypto-info strong {
+    display: flex;
+    color: #2dd0d1;
+    margin-left: 18px;
+}
+
+.crypto-info small {
+    display: flex;
+    color: #5e7391;
+    margin-bottom: 16px;
+    position: absolute;
+    right: 20px;
+}
+
+.border {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 2px #5e7391;
+}
+
+.user {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.user img {
+    width: 32px;
+    height: 32px;
+    margin: 10px 16px 10px 16px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+}
+
+.user p {
+    color: #5e7391;
+}
+
+.user span {
+    color: #d6e0e9;
+}
