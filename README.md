@@ -2,6 +2,8 @@
 
 An HTML & CSS Frontend Mentor challenge for the purpose of practicing. A mockup is given and has to be reproduced as closely as possible to the original. Responsive design, mobile first.
 
+Link to the challenge: https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
+
 **Desktop Version**
 
 ![lphlhinp8axkoadq4jq7](https://github.com/Vasiliki-Georgiou/NFT_Card_HTML_CSS_FrontEnd_Mentor_Challenge/assets/113369011/cfa7414d-559a-42b3-a37f-5b0b29b6a3e0)
